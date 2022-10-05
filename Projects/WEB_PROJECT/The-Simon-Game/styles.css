@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+#game-name{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 3rem;
+  color: #386da6;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+#rules{
+  font-size: 1.5rem;
+  margin: 10% 7%;
+  padding: 3%;
+  border-width:10px;
+  border-style: ridge;
+  border-color: #ffffba;
+}
+.rules-title{
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+  padding-bottom: 5%;
+}
+.rules-steps{
+  text-align: left;
+  color: #fff;
+  line-height: 1.5;
+}
+.creator{
+  color: #fff;
+  text-align: right;
+  
+}
