@@ -1,7 +1,4 @@
-/*
-Rahul Kumar GUpta
-Github = https://github.com/rahulshivan05
-*/
+
 
 #include <stdio.h>
 
