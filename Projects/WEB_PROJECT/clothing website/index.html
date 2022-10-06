@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloth Store</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: whitesmoke;
+        background-image: url("Best_Baby_Clothes_1296x728\ \(1\).jpg");
+        background-size: 1538px 752px;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+      }
+      .navigation {
+        background-color: black;
+      }
+      .naver {
+        list-style-type: none;
+        display: inline-block;
+        background-color: black;
+      }
+      .list {
+        display: inline-block;
+        padding: 34px;
+        margin-left: 50px;
+        color: white;
+        justify-content: center;
+        margin-top: 10px;
+      }
+      .btn {
+        text-align: right;
+        margin-left: 550px;
+        position: relative;
+        background-color: yellow;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .list:hover {
+        text-decoration: underline;
+        border: 4px greenyellow solid;
+        cursor: pointer;
+        border-radius: 50px;
+        background-color: grey;
+        color: blueviolet;
+      }
+      .btn:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        border: 4px greenyellow solid;
+        border-radius: 50px;
+        background-color: grey;
+        color: blueviolet;
+        font-size: 30px;
+      }
+      .heading {
+        color: rgb(110, 69, 110);
+        text-align: center;
+        font-size: 50px;
+        padding: 50px;
+      }
+      .heading:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        border: 4px greenyellow solid;
+        border-radius: 50px;
+        background-color: grey;
+        color: blueviolet;
+        font-size: 70px;
+      }
+      .text {
+        font-family: "Baloo Bhai", cursive;
+        text-align: center;
+        display: block;
+        width: 650px;
+        padding: 1px;
+        border: 4px solid black;
+        font-size: 25px;
+        margin-left: 21px;
+        margin-top: 25px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-right: 25px;
+        margin-bottom: 21px;
+        background: none;
+        color: black;
+        font-weight: bold;
+        transition-property: all;
+        transition-duration: 5s;
+        transition-timing-function: 2s;
+        transform: 2s;
+      }
+      .text:hover {
+        width: 400px;
+        transform: rotate(-45deg);
+      }
+      .container {
+        display: inline-block;
+        margin-left: 21px;
+        text-align: center;
+        border: 8px rgba(58, 111, 135, 0.735) solid;
+        border-radius: 51px;
+      }
+      #submit:hover {
+        background-color: cornflowerblue;
+      }
+      .chat {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: right;
+        color: white;
+        background-color: red;
+        border: 4px solid gold;
+        width: 120px;
+        margin-left: 1100px;
+        position: relative;
+        cursor: pointer;
+        animation-name: slide;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        text-align: center;
+        border-radius: 40px;
+        box-shadow: 5px 10px 10px darkblue;
+      }
+      @keyframes slide {
+        from {
+          width: 200px;
+        }
+        to {
+          width: 400px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <ul class="naver">
+          <li class="list">Home</li>
+          <li class="list">Categories</li>
+          <li class="list">About Us</li>
+          <li class="list">Contact Us</li>
+          <button class="btn">Get Started</button>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1 class="heading">WELCOME TO KSHITIZ STORE</h1>
+      <form action="backend">
+        <div class="container">
+          <input type="text" placeholder="Enter your name" class="text" />
+          <input type="text" placeholder="Enter your address" class="text" />
+          <input type="number" placeholder="Enter your number" class="text" />
+          <input type="email" placeholder="Enter your Email" class="text" />
+          <input
+            type="password"
+            placeholder="Enter your password"
+            class="text"
+          />
+          <input type="submi" value="Submit Now" class="text" id="submit" />
+        </div>
+      </form>
+    </section>
+    <footer>
+      <p class="chat">HELP</p>
+    </footer>
+  </body>
+</html>
